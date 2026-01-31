@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.amaplayer.ntivetest",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,12 +29,6 @@
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/d3e3d5a3-55c7-4e47-8750-d1af58195ca3"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     },
     "plugins": [
       "expo-router",
@@ -54,7 +52,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "d3e3d5a3-55c7-4e47-8750-d1af58195ca3"
+        "projectId": "4c688c18-4d96-4549-8d52-5aab5a2b6dea"
       }
     }
   }

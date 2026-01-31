@@ -6,7 +6,7 @@ export default function HomeScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Dashboard</Text>
-        <Text style={styles.headerSubtitle}>Welcome back, Tester</Text>
+        <Text style={styles.headerSubtitle}>Welcome back, Developer (v2)</Text>
       </View>
 
       <View style={styles.statsContainer}>
